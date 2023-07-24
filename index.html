@@ -1,0 +1,45 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Microsoft Paint</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+<style type="text/css">
+    h3
+    {
+      font-size: 25px !important;
+    }
+    canvas {
+        border:1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <div id="thing"class="container">
+        <h3 class="btn btn-primary">Microsoft paint</h3>
+        <h5>Color :</h5>
+        <input id="colorname" placeholder="Enter Color">
+        <br><br>
+        <h5>X cordinates :</h5>
+        <input id="X" placeholder="Enter X cordinates">
+        <br><br>
+        <h5>Y cordinates :</h5>
+        <input id="Y" placeholder="Enter Y cordinates">
+        <br><br>
+        <h5>Width :</h5>
+        <input id="Width" placeholder="Enter Width">
+        <br><br>
+        <h5>Height :</h5>
+        <input id="Height" placeholder="Enter Height">
+        <br><br>
+        <button onclick="cdraw()" class="btn btn-primary">Circle</button>
+        <br><br>
+        <button onclick="rdraw()" class="btn btn-success"> Rectangle / Square </button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
